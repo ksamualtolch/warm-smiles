@@ -19,6 +19,11 @@ html, body {
 
 .about-body {
 	background: url(images/office.JPG);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	font-family: "Arial Rounded MT Bold", Lato;
+
 }
 
 #content {
