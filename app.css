@@ -4,7 +4,11 @@ html {
 
 }
 
-body {
+html, body {
+  overflow-x: hidden;
+}
+
+body, .about-body {
 	background: url(images/tray.JPG);
 	background-size: cover;
 	background-position: center;
@@ -15,11 +19,6 @@ body {
 
 .about-body {
 	background: url(images/office.JPG);
-	background-size: cover;
-	background-position: center;
-	color: white;
-	font-family: "Arial Rounded MT Bold", Lato;
-    width: auto;
 }
 
 #content {
