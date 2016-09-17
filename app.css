@@ -1,26 +1,26 @@
 
-html {
-	background: url(images/tray.JPG) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-body, .about-body {
-	font-family: "Arial Rounded MT Bold", Lato;
-    
-}
 
 html, body {
   overflow-x: hidden;
 }
 
+body {
+	font-family: "Arial Rounded MT Bold", Lato;
+  background: url(images/tray.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
 .about-body {
-	background: url(images/office.JPG);
-	background-size: cover;
-	background-position: center;
-	color: white;
+	background: url(images/office.JPG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
 	font-family: "Arial Rounded MT Bold", Lato;
 
 }
@@ -66,6 +66,9 @@ a:link {
 	color: yellow;
 }
 
+/*Navbar*/
+
+
 .navbar-default {
 	background-color: rgba(243, 194, 194, 1);
 	border: none;
@@ -82,6 +85,8 @@ a:link {
 .fa-smile-o {
 	padding: 2px;
 }
+
+
 
 .thumbnail {
 	padding: 10px;
@@ -122,6 +127,8 @@ a:link {
 .find-us {
 	font-size: 14px;
 }
+
+
 /*NAVBAR COLLAPSE ALTERATIONS*/
 
 @media (max-width: 1000px) {
