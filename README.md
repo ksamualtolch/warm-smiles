@@ -1,3 +1,5 @@
 # warm-smiles
-Warm Smiles Dentistry 
+Warm Smiles Dentistry. 
+
+
 My first website developed with Bootstrap
